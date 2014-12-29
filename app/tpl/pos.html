@@ -1,0 +1,84 @@
+
+<div class="col-sm-12  posContainer" ng-controller="posCtrl">
+<!--nav bar -->	
+	
+<!--pos container-->
+  <div class="col-sm-12 pos_container">
+  	<div class="pos_header col-sm-12">
+  		<div class="col-sm-6 pos_customerId">Customer</div>
+  		<div class="col-sm-3 item_qty">{{item.qty}} item qty</div>
+  	</div><!--end of pos_header-->
+  	<div class="col-sm-12 pos_body">
+  		<div class="col-sm-2 item_scan">{{sale}}</div>
+		<div class=" col-sm-2 pos_sale_type">{{order}}</div>
+		<div class=" col-sm-2 pos_sale_type">{{quote}}</div>
+		<div class=" col-sm-2 pos_sale_type">{{inventory}}</div>
+		<div class=" col-sm-2 pos_sale_type">{{functions}}</div>
+		<div class="col-sm-2 item_id">{{item.id}}</div>
+	</div><!--end pos_body-->
+	
+<div class="col-sm-12 pos">
+  <div class="col-sm-6 pos_body_mid" ng-model="items">
+		{{item1}}{{item2}}{{item3}}{{item4}}{{item5}}{{item6}}{{item7}} </div>
+   		
+     <div class="col-sm-6 pos_item_input"> 
+     	    <div class="col-sm-2 pos_item">apples</div>
+     	    <div class="col-sm-2 pos_item">Bananas</div>
+     	    <div class="col-sm-2 pos_item">Cherries</div>
+     	    <div class="col-sm-2 pos_item">Oranges</div>
+     	    <div class="col-sm-2 pos_item">Grapes</div>
+     	    <div class="col-sm-2 pos_item">Raisins</div>
+     	    <div class="col-sm-2 pos_item">Cranberry</div>
+     	    <div class="col-sm-2 pos_item">Peaches</div>
+     	    <div class="col-sm-2 pos_item">Watermelon</div>
+     	    <div class="col-sm-2 pos_item">Honeydew</div>
+     	    <div class="col-sm-2 pos_item">Squash</div>
+     	    <div class="col-sm-2 pos_item">Carmel Corn</div>
+     	    <div class="col-sm-2 pos_item">Cup Cakes</div>
+     	    <div class="col-sm-2 pos_item">Ice Cream</div>
+     	    <div class="col-sm-2 pos_item">Cider Donuts</div>
+     	    <div class="col-sm-2 pos_item">Fudge</div>
+     	    <div class="col-sm-2 pos_item">Nuts</div>
+     	    <div class="col-sm-2 pos_item">Swirl</div>
+     	    <div class="col-sm-2 pos_item">Peanut Butter</div>
+     	    <div class="col-sm-2 pos_item">Honey</div>
+     	    <div class="col-sm-2 pos_item">Cherry Jam </div>
+      </div><!--pos_item_input-->
+      <div class="col-sm-12 pos_footer">
+          <div class=" col-sm-1 pos_item_subtotal">{{item.subtotal}} Sub Total</div>
+          <div class=" col-sm-1 pos_item_tax">{{item.tax}} Tax</div>
+          <div class=" col-sm-1 pos_item_total">{{item.total}} Item Total</div>
+          <div class=" col-sm-1 pos_item_tender">{{item.tender}} Tender</div>
+          <div class="col-sm-1 pos_item_change">{{item.change}} Change</div>
+      </div><!--end pos_footer-->
+      </div>
+    </div>
+   </div>  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
