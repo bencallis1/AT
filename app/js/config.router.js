@@ -25,7 +25,7 @@ angular.module('app')
                 url: "/pos",
                 templateUrl:'tpl/pos.html',
                 resolve: {
-                  eps: ['$ocLazyLoad',
+                  deps: ['$ocLazyLoad',
                       function( $ocLazyLoad ){
                         return $ocLazyLoad.load(['js/controllers/posCtrl.js']);
                     }]
